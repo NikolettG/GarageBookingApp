@@ -1,0 +1,344 @@
+.stepsSection{
+    position: relative;
+    top: 0;
+   
+    z-index: 200;
+    min-height: 850px;
+   
+   width: 100%;
+}
+
+.stepsTitleDiv{
+    position: relative;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.stepsTitle{
+    position: relative;
+    color: yellow;
+    font-size: 25px;
+    position: relative;
+    top: 25%;
+
+}
+.sliderSection{
+    position: relative;
+    top: 0;
+   
+}
+.stepBP{
+   
+    position: absolute;
+    top: 0;
+    
+    height: 100vh;
+    max-width: 2500px;
+    width: 100%;
+}
+#slide{
+    
+}
+.sliderDiv1{
+   
+   
+
+
+    z-index: 14;
+    margin: 0 auto;
+  
+    width: 1000px;
+   color: white;
+    display: grid;
+    grid-template-rows: repeat(auto-fit);
+    gap: 50px;
+    
+}
+.sliderDiv2{
+   
+   
+
+    z-index: 14;
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+   color: white;
+    display: grid;
+    grid-template-rows: repeat(auto-fit);
+    gap: 50px;
+    
+}
+.sliderDiv3{
+    
+    
+   
+    z-index: 14;
+    margin: 0 auto;
+
+    width: 1000px;
+   color: white;
+    display: grid;
+    grid-template-rows: repeat(auto-fit);
+    gap: 50px;
+   
+}
+.arrow{
+    color: white;
+    position: relative;
+    top: 30%;
+
+}
+#minArr{
+   
+    right: 20%;
+}
+
+#iconText{
+    font-size: 12px;
+    color: white;
+}
+#miniIcon{
+    height: 15px;
+    height: 25px;
+    position: relative;
+    left: 20%;
+}
+
+.iconDiv{
+    position: relative;
+
+   
+    width: 1200px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 70px));
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    top: 30px;
+    z-index: 200;
+}
+.visible{
+    text-align: center;
+
+   
+    
+   
+}
+#icon{
+    height: 30px;
+    height: 55px;
+}
+.hidden{
+display: none;
+}
+.fade{
+    opacity: 20%;
+    
+}
+.arrowDiv{
+    position: relative;
+ top: 700px;
+    text-align: center;
+    z-index: 200;
+    justify-content: center;
+}
+.prev{
+    color: white;
+z-index: 100;
+    float: left;
+    margin-left: 20%;
+}
+.prev .arr{
+    font-size: 40px;
+}
+.next .arr{
+    font-size: 40px;
+}
+.next{
+    color: white;
+    z-index: 100;
+    float: right;
+    margin-right: 20%;
+   
+}
+.dotsDiv{
+   
+    position: relative;
+   top: 700px;
+    margin: 0 auto;
+   
+    width: 80px;
+    z-index: 200;
+}
+.yellow{
+    color: yellow;
+}
+.dots{
+    color: white;
+}
+#numberIcon{
+   position: relative;
+   float: left;
+   margin-right: 10px;
+}
+#stepText{
+    font-size: 25px;
+}
+
+#byeText{
+    text-align: center;
+}
+.mainDiv{
+    
+
+    position: relative;
+   top: 150px;
+    margin: auto;
+  display: block;
+z-index: 200;
+  width: 1200px;
+}
+@media (max-width: 1520px){
+    .iconDiv{
+        width: 1200px;
+        top: 30px;
+    }
+    #icon{
+        height: 15px;
+        height: 40px;
+    }
+    .mainDiv{
+       top: 80px;
+       width: 800px;
+    }
+    .stepBP{
+   
+        position: absolute;
+        top: 0;
+        
+        height: 120vh;
+        max-width: 2500px;
+        width: 100%;
+    }
+    .stepsSection{
+   
+        height: 120vh;
+    }
+    #stepText{
+        font-size: 20px;
+    }
+    .dotsDiv{
+       top: 500px;
+    }
+    .arrowDiv{
+
+     top: 500px;
+       
+    }
+    .sliderDiv1{
+        width: 800px;
+    }
+    .sliderDiv2{
+        width: 800px;
+    }
+    .sliderDiv3{
+        width: 800px;
+    }
+}
+@media (max-width: 1290px){
+    .iconDiv{
+       margin-right: 10px;
+    }
+
+}
+@media (max-width: 1240px){
+    .iconDiv{
+      display: none;
+    }
+    .dotsDiv{
+        top: 600px;
+     }
+     .arrowDiv{
+ 
+      top: 600px;
+        
+     }
+}
+@media (max-width: 1000px){
+    .mainDiv{
+        top: 80px;
+        width: 600px;
+     }
+     .sliderDiv1{
+        width: 600px;
+    }
+    .sliderDiv2{
+        width: 600px;
+    }
+    .sliderDiv3{
+        width: 600px;
+    }
+
+}
+@media (max-width: 695px){
+    .mainDiv{
+        top: 30px;
+        width: 400px;
+     }
+     .sliderDiv1{
+        width: 400px;
+    }
+    .sliderDiv2{
+        width: 400px;
+    }
+    .sliderDiv3{
+        width: 400px;
+    }
+}
+    @media (max-width: 550px){
+        .stepsSection{
+           max-height: 800px;
+        }
+        #stepText{
+            font-size: 20px;
+        }
+        
+}
+    @media (max-width: 420px){
+        .stepsSection{
+           max-height: 800px;
+        }
+        #stepText{
+            font-size: 15px;
+        }
+        #stepMains{
+            font-size: 20px;
+        }
+        #numberIcon{
+            height: 30px;
+            width: 30px;
+         }
+         .mainDiv{
+            top: 30px;
+            width: 250px;
+         }
+         .sliderDiv1{
+            width: 250px;
+        }
+        .sliderDiv2{
+            width: 250px;
+        }
+        .sliderDiv3{
+            width: 250px;
+        }
+    }
+    @media (max-width: 650px){
+        .stepBP{
+           display: none;
+        }
+    }

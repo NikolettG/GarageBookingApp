@@ -1,0 +1,191 @@
+.loginSection{
+    position: relative;
+    top: 0;
+    background-color: black;
+  
+}
+.logBackroundPic{
+    height: 100vh;
+    min-height: 700px;
+    max-height: 2000px;
+    max-width: 2500px;
+    width: 100%;
+}
+.logBackroundPicMob{
+    display: none;
+}
+.logDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    min-height: 500px;
+    max-height: 800px;
+    max-width: 1000px;
+    height: 80vh;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px black;
+   
+}
+
+.buttonDiv{
+    position: relative;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.registrationButton{
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    padding: 10px;
+    z-index: 10;
+    opacity: 100%;
+}
+
+.loginButton{
+    background-color: rgb(201, 198, 198);
+    color: black;
+    width: 70px;
+    padding: 10px;
+    z-index: 10;
+    opacity: 100%;
+   
+}
+.registrationTitle{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.registrationText{
+    text-align: center;
+}
+
+.cardsDiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card {
+    background-color: white;
+   text-align: center;
+    border-radius: 5%;
+    box-shadow: 0 2px 20px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    height: 300px;
+    width: 270px;
+}
+.card-img{
+    position: relative;
+   top: 20%;
+height: 150px;
+width: 130px;
+  margin: auto;
+  display: block;
+
+}
+.card-titles{
+    position: relative;
+    top: 50%;
+    text-transform: uppercase;
+}
+.card:hover {
+background-color: yellow;
+transform: scale(1.1);
+z-index: 10;
+}
+#button:hover{
+    box-shadow: 0 2px 20px black;
+    cursor: pointer;
+    z-index: 11;
+}
+@media (max-width: 900px){
+    .logBackroundPicMob{
+        display: block;
+        min-height: 500px;
+        height: 100vh;
+        width: 100%;
+    }
+    .logBackroundPic{
+        display: none;
+    }
+    .logDiv{
+        min-height: 470px;
+        height: 90vh;
+    }
+    .card {
+        height: 130px;
+        width: 170px;
+        position: relative;
+        left: 18%;
+    }
+    .card-img{
+     
+    height: 70px;
+    width: 60px;
+     
+    
+    }
+    .card-titles{
+       font-size: 15px;
+        top: 30%;
+       
+    }
+    .registrationTitle{
+        text-align: center;
+        padding-top: 0px;
+    
+    }
+}
+@media (max-width: 550px){
+    .logDiv{
+        min-height: 470px;
+        height: 70vh;
+    }
+    .card {
+        height: 130px;
+        width: 170px;
+        position: relative;
+        left: 18%;
+    }
+}
+@media (max-width: 500px){
+    .card {
+        height: 130px;
+        width: 170px;
+        position: relative;
+        left: 15%;
+    }
+}
+@media (max-width: 435px){
+    .card {
+        height: 130px;
+        width: 170px;
+        position: relative;
+        left: 12%;
+    }
+}
+@media (max-width: 420px){
+    .card {
+        left: 9%;
+    }
+}
+@media (max-width: 380px){
+    .logDiv{
+     
+        height: 75vh;
+    }
+}
